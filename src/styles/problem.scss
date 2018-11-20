@@ -1,0 +1,26 @@
+@import "config";
+
+.problem {
+  &__timer {
+    margin-bottom: $gutter;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  &__question {
+    margin-bottom: $gutter;
+    font-size: 2rem;
+  }
+
+  &__input {
+    padding: 5px;
+    margin-bottom: $gutter;
+
+    font-family: $fonts;
+    font-size: 2rem;
+  }
+
+  &--hidden {
+    display: none;
+  }
+}

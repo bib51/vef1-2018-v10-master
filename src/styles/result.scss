@@ -1,0 +1,26 @@
+.result {
+  &--hidden {
+    display: none;
+  }
+
+  &__text {
+    margin-bottom: $gutter;
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    font-size: 1rem;
+  }
+
+  &__input {
+    padding: 5px;
+    margin-bottom: $gutter;
+
+    font-family: $fonts;
+    font-size: 2rem;
+  }
+}

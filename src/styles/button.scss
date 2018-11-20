@@ -1,0 +1,32 @@
+@import "config";
+
+.button {
+  display: block;
+
+  width: 100%;
+  max-width: 250px;
+  padding: 10px 5px;
+  margin: 0;
+
+  font-family: $fonts;
+  font-size: 1rem;
+
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+  background-color: #ddd;
+
+  border: 0;
+  border-radius: 5px;
+
+  &--hidden {
+    display: none;
+  }
+
+  &--large {
+    max-width: 500px;
+    font-size: 2rem;
+  }
+}
